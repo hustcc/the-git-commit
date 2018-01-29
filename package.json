@@ -1,0 +1,21 @@
+{
+  "name": "the-git-commit",
+  "version": "0.0.2",
+  "description": "Nano nodejs module to get information of any git commit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/com/hustcc/the-git-commit"
+  },
+  "keywords": [
+    "latest-commit",
+    "git-commit",
+    "commit-info",
+    "the-git-commit"
+  ],
+  "author": "hustcc",
+  "license": "MIT"
+}
