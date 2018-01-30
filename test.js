@@ -3,7 +3,7 @@
  * Contract: i@hust.cc
  */
 
-var TGM = require('.');
+var TGM = require('./');
 var expect = require('expect');
 
 
