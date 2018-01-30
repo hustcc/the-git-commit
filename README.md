@@ -1,7 +1,8 @@
-# the-git-commit [![Version](https://img.shields.io/npm/v/the-git-commit.svg)](https://www.npmjs.com/package/the-git-commit)
+# the-git-commit
 
 > Nano nodejs module to get information of any git commit.
 
+[![Ver](https://img.shields.io/npm/v/the-git-commit.svg)](https://www.npmjs.com/package/the-git-commit) [![Build Status](https://travis-ci.org/hustcc/the-git-commit.svg?branch=master)](https://travis-ci.org/hustcc/the-git-commit) [![Coverage Status](https://coveralls.io/repos/github/hustcc/the-git-commit/badge.svg?branch=master)](https://coveralls.io/github/hustcc/the-git-commit)
 
 ## Usage
 
