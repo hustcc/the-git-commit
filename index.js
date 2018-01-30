@@ -60,6 +60,11 @@ TGM.prototype.info = function (hash) {
   return this.parse(info);
 };
 
+/**
+ * parse commit log
+ * @param info
+ * @returns {{}}
+ */
 TGM.prototype.parse = function(info) {
   var r = {};
 
@@ -96,6 +101,6 @@ TGM.prototype.parse = function(info) {
   r.message = arr.slice(cnt).join('').trim();
 
   return r;
-}
+};
 
 module.exports = TGM;
