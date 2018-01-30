@@ -12,13 +12,13 @@ var TGM = require('the-git-commit');
 // lastease commit of current dir
 new TGM().info();
 
-// lastease commit of the-git-commit
+// lastease commit of `the-git-commit`
 new TGM('/home/hustcc/the-git-commit').info();
 
 // the commit of current dir
-new TGM('/home/hustcc/the-git-commit').info('a63e1b4');
+new TGM().info('a63e1b4');
 
-// the commit of the-git-commit
+// the commit of `the-git-commit`
 new TGM('/home/hustcc/the-git-commit').info('a63e1b488ac24759276a2de414122e7bca4351be');
 ```
 
