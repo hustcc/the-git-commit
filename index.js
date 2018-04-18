@@ -41,7 +41,7 @@ function safeString(s) {
  * @param cwd
  * @constructor
  */
-function TGM (cwd) {
+function TGM(cwd) {
   this.cwd = cwd; // current dir.
 }
 
@@ -52,7 +52,7 @@ function TGM (cwd) {
  * @param hash
  * @returns {string}
  */
-TGM.prototype.info = function (hash) {
+TGM.prototype.info = function(hash) {
   var baseCmd = 'git log -n 1'; // get commit log with this cmd.
   var cmd = hash ? baseCmd + ' ' + hash : baseCmd;
   const info = execSync(cmd, { cwd: this.cwd }).toString();

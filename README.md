@@ -4,15 +4,17 @@
 
 [![Ver](https://img.shields.io/npm/v/the-git-commit.svg)](https://www.npmjs.com/package/the-git-commit) [![Build Status](https://travis-ci.org/hustcc/the-git-commit.svg?branch=master)](https://travis-ci.org/hustcc/the-git-commit) [![Coverage Status](https://coveralls.io/repos/github/hustcc/the-git-commit/badge.svg?branch=master)](https://coveralls.io/github/hustcc/the-git-commit)
 
+
+
 ## Usage
 
 ```js
 var TGM = require('the-git-commit');
 
-// lastease commit of current dir
+// lasest commit of current dir
 new TGM().info();
 
-// lastease commit of `the-git-commit`
+// lasest commit of `the-git-commit`
 new TGM('/home/hustcc/the-git-commit').info();
 
 // the commit of current dir
@@ -23,6 +25,7 @@ new TGM('/home/hustcc/the-git-commit').info('a63e1b488ac24759276a2de414122e7bca4
 ```
 
 Then get:
+
 
 ```js
 {
@@ -36,6 +39,7 @@ Then get:
 }
 
 ```
+
 
 
 ## LICENSE
